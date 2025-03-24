@@ -1,6 +1,6 @@
+import 'package:alarm/alarm.dart';
 import 'package:alarm_practice/widgets/tile.dart';
 import 'package:flutter/material.dart';
-import 'package:alarm/alarm.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("알람 앱 연습"),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.grey.shade400,
       ),
       body: SafeArea(
           child: alarms.isNotEmpty
@@ -33,7 +33,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         hour: alarms[index].dateTime.hour,
                         minute: alarms[index].dateTime.minute,
                       ).format(context),
-                      onPressed: navigateTo,
+                      onPressed: () {},
+                      onDismissed: () {},
                     );
                   },
                 )

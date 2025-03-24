@@ -25,11 +25,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
 
 SPEC CHECKSUMS:
-  alarm: 6c1f6a9688f94cd6bf8f104c67cc26e78c9d8d13
+  alarm: 839eba06f468218db1b9f1736e32322db958e857
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_fgbg: 31c0d1140a131daea2d342121808f6aa0dcd879d
-  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+  flutter_fgbg: d3da78df78454b1808f0829a5da9cd17dfe16444
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

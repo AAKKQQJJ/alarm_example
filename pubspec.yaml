@@ -58,6 +58,13 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/marimba.mp3
+    - assets/mozart.mp3
+    - assets/nokia.mp3
+    - assets/one_piece.mp3
+    - assets/star_wars.mp3
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
